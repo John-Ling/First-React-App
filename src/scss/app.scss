@@ -1,0 +1,33 @@
+@use "./variables.scss" as v;
+@use "sass:color";
+
+.App {
+	text-align: center;
+	background-color: v.$background;
+	min-height: 100vh;
+	font-size: calc(10px + 2vmin);
+	color: v.$text;
+}
+
+.main-section {
+	display: flex;
+	flex-direction: column;
+}
+
+#settings-button {
+	align-self: flex-end;
+
+	button {
+		color: v.$text;
+		padding: 0.75rem;
+		margin: 1rem;
+		border: solid 1px v.$green;
+		border: none;
+		background-color: v.$green;
+		border-radius: 0.3rem;
+		&:hover {
+			color: color.scale(v.$text, $lightness: -20%);
+			background-color: color.scale(v.$green, $lightness: -20%);
+		}
+	}
+}

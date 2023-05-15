@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: #f0f0f0;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#settings-button {
+  align-self: flex-end;
+}
+#settings-button button {
+  color: #f0f0f0;
+  padding: 0.75rem;
+  margin: 1rem;
+  border: solid 1px #a3be8c;
+  border: none;
+  background-color: #a3be8c;
+  border-radius: 0.3rem;
+}
+#settings-button button:hover {
+  color: silver;
+  background-color: #81a662;
+}
+
+/*# sourceMappingURL=app.css.map */

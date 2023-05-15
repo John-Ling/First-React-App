@@ -1,0 +1,31 @@
+.tasks-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.trello-list {
+  background-color: #3a404c;
+  display: flex;
+  flex-direction: column;
+  overflow-wrap: break-word;
+  min-width: 33vh;
+  max-width: 33vh;
+  margin: 0 1.5vh 0 1.5vh;
+  padding: 0 2% 0 2%;
+  border: solid 1px #3a404c;
+  border-radius: 1.5vh;
+}
+.trello-list p {
+  font-size: smaller;
+}
+
+@media screen and (max-width: 800px) {
+  .trello-list {
+    margin: 1.5vh 0 1.5vh 0;
+  }
+}
+
+/*# sourceMappingURL=task-display.css.map */

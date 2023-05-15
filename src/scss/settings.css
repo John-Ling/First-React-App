@@ -1,0 +1,64 @@
+.list-id-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list-id-display {
+  background-color: #24282f;
+  margin: 0 1.5rem 0 1.5rem;
+  border: solid 1px #24282f;
+  border-radius: 0.3rem;
+}
+
+.id-name-pair {
+  display: flex;
+  justify-content: center;
+}
+.id-name-pair p {
+  margin: 1rem;
+}
+
+.button-pair {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.edit-button {
+  color: #f0f0f0;
+  background-color: #a3be8c;
+  padding: 0.25rem;
+  border: none;
+}
+.edit-button:hover {
+  color: silver;
+  background-color: #81a662;
+}
+
+.delete-button {
+  color: #f0f0f0;
+  background-color: #bf616a;
+  padding: 0.25rem;
+  border: none;
+}
+.delete-button:hover {
+  color: silver;
+  background-color: #a4424c;
+}
+
+.submission-form input {
+  background-color: #3a404c;
+  color: #f0f0f0;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  margin: 0.25rem;
+  border: solid 1px #3a404c;
+  border-radius: 0.3rem;
+}
+.submission-form input[type=submit]:hover {
+  color: silver;
+  background-color: #2f333d;
+}
+
+/*# sourceMappingURL=settings.css.map */

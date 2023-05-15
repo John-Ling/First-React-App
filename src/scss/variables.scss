@@ -1,0 +1,9 @@
+@use "sass:color";
+
+$background: #282c34;
+$background-light: color.scale($background, $lightness: 10%);
+$background-dark: color.scale($background, $lightness: -10%);
+$background-darker: color.scale($background, $lightness: -20%);
+$text: #f0f0f0;
+$green: #a3be8c;
+$red: #bf616a;

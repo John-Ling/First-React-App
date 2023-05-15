@@ -1,0 +1,71 @@
+@use "sass:color";
+@use "./variables.scss" as v;
+
+.list-id-table {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.list-id-display {
+	background-color: v.$background-dark;
+	margin: 0 1.5rem 0 1.5rem;
+	border: solid 1px v.$background-dark;
+	border-radius: 0.3rem;
+}
+
+.id-name-pair {
+	display: flex;
+	justify-content: center;
+
+	p {
+		margin: 1rem;
+	}
+}
+
+.button-pair {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+
+.edit-button {
+	color: v.$text;
+	background-color: v.$green;
+	padding: 0.25rem;
+	border: none;
+
+	&:hover {
+		color: color.scale(v.$text, $lightness: -20%);
+		background-color: color.scale(v.$green, $lightness: -20%);
+	}
+}
+
+.delete-button {
+	color: v.$text;
+	background-color: v.$red;
+	padding: 0.25rem;
+	border: none;
+
+	&:hover {
+		color: color.scale(v.$text, $lightness: -20%);
+		background-color: color.scale(v.$red, $lightness: -20%);
+	}
+}
+
+.submission-form {
+	input {
+		background-color: v.$background-light;
+		color: v.$text;
+		padding: 0.5rem;
+		font-size: 1.1rem;
+		margin: 0.25rem;
+		border: solid 1px v.$background-light;
+		border-radius: 0.3rem;
+
+		&[type="submit"]:hover {
+			color: color.scale(v.$text, $lightness: -20%);
+			background-color: color.scale(v.$background-light, $lightness: -20%);
+		}
+	}
+}

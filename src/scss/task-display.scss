@@ -1,0 +1,32 @@
+@use "../scss/variables.scss" as v;
+
+.tasks-section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.trello-list {
+	background-color: v.$background-light;
+	display: flex;
+	flex-direction: column;
+	overflow-wrap: break-word;
+	min-width: 33vh;
+	max-width: 33vh;
+	margin: 0 1.5vh 0 1.5vh;
+	padding: 0 2% 0 2%;
+	border: solid 1px v.$background-light;
+	border-radius: 1.5vh;
+
+	p {
+		font-size: smaller;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.trello-list {
+		margin: 1.5vh 0 1.5vh 0
+	}
+}
