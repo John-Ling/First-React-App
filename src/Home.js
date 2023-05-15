@@ -42,21 +42,6 @@ export const Home = () => {
 			blocked = true;
 		};
 	}, [tableData]);
-
-	// 	id: nanoid(),
-	// 	name: "List 1",
-	// 	content: ["Task 1", "Task 2"]
-	// },
-	// {
-	// 	id: nanoid(),
-	// 	name: "List 2",
-	// 	content: ["Task 1", "Task 2", "Task 3"]
-	// },
-	// {
-	// 	id: nanoid(),
-	// 	name: "List 3",
-	// 	content: []
-	// }]);
 	return (
 		<div className="App">
 			<div className="main-section">
